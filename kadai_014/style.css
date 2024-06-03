@@ -1,0 +1,35 @@
+#first-heading{
+ /*文字の一行目に装飾する*/
+    text-shadow: 3px 3px 6px gray;
+    font-size:200%;
+    border-bottom: solid 3px rgb(115,115,114);
+    letter-spacing: 1.2em; 
+    text-align: center;
+
+ /*ここにgoogle fontsを指定します*/
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+#second-paragraph {
+ /* 2行目以降のfontsを指定します */
+    font-family: "Arial","Meiryo", sans-serif;
+    font-size:20px;
+    text-align: center;
+    border: solid 3px lightgrey;
+}
+
+.text-skyblue {
+    /* 文字色をスカイブルーにする */
+    color: skyblue;
+}
+.text-pink {
+    /* 文字色をピンクにする */
+    color:rgb(255,192,203);
+}
+.text-bold{
+    /* 文字を太くする */
+    font-weight: bold;
+}
