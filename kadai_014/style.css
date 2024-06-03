@@ -1,7 +1,11 @@
+html {
+    font-size:20px;
+}
+
 #first-heading{
  /*文字の一行目に装飾する*/
     text-shadow: 3px 3px 6px gray;
-    font-size:200%;
+    font-size:2rem;
     border-bottom: solid 3px rgb(115,115,114);
     letter-spacing: 1.2em; 
     text-align: center;
@@ -16,7 +20,6 @@
 #second-paragraph {
  /* 2行目以降のfontsを指定します */
     font-family: "Arial","Meiryo", sans-serif;
-    font-size:20px;
     text-align: center;
     border: solid 3px lightgrey;
 }
